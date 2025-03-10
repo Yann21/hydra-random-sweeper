@@ -5,11 +5,11 @@ from setuptools import find_namespace_packages, setup
 with open("README.md") as fh:
     LONG_DESC = fh.read()
     setup(
-        name="hydra-list-sweeper",
+        name="hydra-random-sweeper",
         version="1.0.1",
         author="Philipp Dahlinger",
         author_email="philipp.dahlinger@kit.edu",
-        description="List Hydra Sweeper plugin",
+        description="Random Hydra Sweeper plugin",
         long_description=LONG_DESC,
         long_description_content_type="text/markdown",
         url="https://github.com/facebookresearch/hydra/",
